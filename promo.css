@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+}
+
+header h1{
+    text-transform: none;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header img{
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+    margin-left: 5px;
+}
+
+.submenu{
+    display: none;
+}
+
+.navbar:hover .submenu{
+    display: block !important;
+    position: absolute;
+    margin-top: 1px;
+}
+
+.submenu li{
+    background-color: #333;
+    width: 120px;
+    padding: 1rem;
+}
+
+.submenu li:hover{
+    background-color: red;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-all {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.promotion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.promotion-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.promotion-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.promotion-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #35424a;
+}
+
+.promotion-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.promotion-card button {
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.promotion-card button:hover {
+    background-color: red;
+}
+
+#promotion-header {
+    min-height: 200px;
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    min-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    background: url('./Assets/product_card/f5a244fa8da39abeb2064625e2e095ed.jpg');
+
+}
+
+#promotion-header h1 {
+    font-size: 55px;
+    color: red;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+#promotion-header p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+    border-top: red 3px solid;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,285 @@
+/* register.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+}
+
+header h1{
+    text-transform: none;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header img{
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+    margin-left: 5px;
+}
+
+.submenu{
+    display: none;
+}
+
+.navbar:hover .submenu{
+    display: block !important;
+    position: absolute;
+    margin-top: 1px;
+}
+
+.submenu li{
+    background-color: #333;
+    width: 120px;
+    padding: 1rem;
+}
+
+.submenu li:hover{
+    background-color: red;
+}
+
+/* register.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.container.content {
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Tambahkan jarak antara kontainer dan footer */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Ubah warna teks label */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select,
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.form-group.terms label {
+    display: inline;
+}
+
+
+
+footer {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+    border-top: red 3px solid;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Ubah warna teks label */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select,
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.form-group.terms label {
+    display: inline;
+}
+
+.registration-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #35424a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Membuat jarak antara tombol dan form */
+}
+
+.registration-form button[type="submit"]:hover {
+    background-color: #ff0000; /* Ubah warna latar belakang saat dihover */
+}
+
+footer {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+    border-top: red 3px solid;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.cta-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.cta-button {
+
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.cta-button:hover{
+    background-color: red;
+}
